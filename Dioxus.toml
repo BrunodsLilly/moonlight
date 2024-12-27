@@ -8,6 +8,9 @@ name = "moonlight"
 # HTML title tag content
 title = "moonlight"
 
+base_path = "moonlight"
+
+
 # include `assets` in web platform
 [web.resource]
 
