@@ -7,5 +7,5 @@
 {#if name}
     <h2>Hello {name}!</h2>
 {:else}
-    <h2>Hello!</h2>
+    <h2>Hello, Guest!</h2>
 {/if}
