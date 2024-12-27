@@ -7,7 +7,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: "moonlight"
+			base: process.argv.includes('dev') ? '/moonlight' : process.env.BASE_PATH
 		}
 	}
 };
