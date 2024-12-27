@@ -3,14 +3,10 @@
 # App (Project) Name
 name = "moonlight"
 
-out_dir = "docs"
-
 [web.app]
 
 # HTML title tag content
 title = "moonlight"
-
-base_path = "moonlight"
 
 # include `assets` in web platform
 [web.resource]
