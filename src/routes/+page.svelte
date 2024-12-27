@@ -1,2 +1,11 @@
+<script>
+    let name = "world";
+</script>
+
 <h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<input bind:value={name} placeholder="Enter your name" />
+{#if name}
+    <h2>Hello {name}!</h2>
+{:else}
+    <h2>Hello!</h2>
+{/if}
