@@ -7,7 +7,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: "/moonlight"
+            base: process.env.NODE_ENV === 'production' ? '/moonlight' : '',
 		}
 	}
 };
